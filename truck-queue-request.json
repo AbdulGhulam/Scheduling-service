@@ -1,0 +1,39 @@
+{
+    "truckers": [
+        {
+            "id": "1",
+            "priority": "low",
+            "requestOrder": 3,
+            "currSeqNo": null,
+            "alreadyspendtimeParking": 0
+        },
+        {
+            "id": "2",
+            "priority": "high",
+            "requestOrder": 1,
+            "currSeqNo": null,
+            "alreadyspendtimeParking": 0
+        },
+        {
+            "id": "3",
+            "priority": "medium",
+            "requestOrder": null,
+            "currSeqNo": 1,
+            "alreadyspendtimeParking": 300
+        },
+        {
+            "id": "4",
+            "priority": "critical",
+            "requestOrder": null,
+            "currSeqNo": 2,
+            "alreadyspendtimeParking": 200
+        },
+        {
+            "id": "5",
+            "priority": "medium",
+            "requestOrder": null,
+            "currSeqNo": 3,
+            "alreadyspendtimeParking": 275
+        }
+    ]
+}
