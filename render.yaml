@@ -1,6 +1,10 @@
 services:
   - type: web
     name: schedule-service
-    runtime: java
+    plan: free
+    runtime: docker
     buildCommand: ./mvnw package -DskipTests
     startCommand: java -jar target/ScheduleService-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: JAVA_VERSION
+        value: 17
