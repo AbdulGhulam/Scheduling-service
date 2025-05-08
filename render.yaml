@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: schedule-service
+    env: java
+    buildCommand: ./mvnw package -DskipTests
+    startCommand: java -jar target/ScheduleService-0.0.1-SNAPSHOT.jar
