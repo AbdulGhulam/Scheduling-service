@@ -4,4 +4,4 @@ services:
     plan: free
     runtime: image
     image:
-      url: ghcr.io/ABDULGHULAM/Scheduling-service:latest
+      url: ghcr.io/ABDULGHULAM/scheduling-service:latest
